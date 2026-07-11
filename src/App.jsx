@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ViewCourses from './components/ViewCourse'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState()
 
   return (
     <>
