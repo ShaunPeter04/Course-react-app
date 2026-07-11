@@ -1,9 +1,11 @@
 import React from 'react'
+import NavigationBar from './NavigationBar'
 
 const InsertCourse = () => {
     return (
         <div>
 
+            <NavigationBar />
             <br />
             <div className="container">
                 <div className="row">
